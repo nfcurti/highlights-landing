@@ -23,24 +23,22 @@ export default function Home() {
       </main>
 
       <div className={styles.account_box}>
-        <h3>Create your account</h3>
+      <form action="https://gmail.us5.list-manage.com/subscribe/post?u=29db1238330aa8eeddd19c557&amp;id=2ca84513b5" method="post">
+        <h3>Subscribe to our newsletter</h3>
         <label for="first_name">First name</label>
-        <input id="first_name" type="text" placeholder="Enter your first name" name="first_name"/>
+        <input id="first_name" type="text" placeholder="Enter your first name" name="FNAME"/>
 
         <label for="last_name">Last name</label>
-        <input id="last_name" type="text" placeholder="Enter your last name" name="last_name"/>
+        <input id="last_name" type="text" placeholder="Enter your last name" name="LNAME"/>
 
         <label for="email_address">Email</label>
-        <input id="email_address" type="email" placeholder="Enter a valid email address" name="email_address"/>
-
-        <label for="password">Password</label>
-        <input id="password" type="password" placeholder="Enter a 8 digital password" name="password"/>
+        <input id="email_address" type="email" placeholder="Enter a valid email address" name="EMAIL"/>
 
         <label for="birth">Date of birth</label>
-        <input id="birth" type="date" value="" name="birth"/>
+        <input id="birth" type="date" name="birth"/>
         <p className={styles.tyc}><b>Terms & Conditions</b><br/><br/>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. </p>
-        <button className={styles.register_button}>REGISTER</button>
-        <button className={styles.login_button}>SIGN IN TO YOUR ACCOUNT</button>
+        <button className={styles.register_button}>SUBSCRIBE</button>
+      </form>
       </div>
       <p className={styles.small_text_footer}>Copyright 2021®   |    Link 1   |   Link 2 <br/><br/>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. </p>
     </div>
